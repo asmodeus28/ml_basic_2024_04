@@ -9,18 +9,18 @@
 
 
 class ReadFile():
-    def read_file_local(self, file_address_local)   # прочтение файла на локальном адресе
-    def read_file_server(self, file_address_server) # прочтение файла на удаленном сервере
-    def read_file_cloud(self, file_address_cloud)   # прочтение файла из облака
+    def read_file_local(self, file_address_local):   # прочтение файла на локальном адресе
+    def read_file_server(self, file_address_server): # прочтение файла на удаленном сервере
+    def read_file_cloud(self, file_address_cloud):   # прочтение файла из облака
 
 class File():
     def __init__(self, name, size, data, owner, type):    #инициализация
     def _clean_init(self, name, size, data, owner, type): #проверка на наличие данных
 
 class ActiveOpenClose(file): #открытие-закрытие файла
-    def open(self)
-    def close(self)
+    def open(self):
+    def close(self):
 
 class ActiveUpdate(file): #внесение новых данных о файле
-    def update(self)
-    def save(self)
+    def update(self):
+    def save(self):
